@@ -1,0 +1,45 @@
+<html>
+
+<head>
+</head>
+
+<body>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about-us.html">About Us</a></li>
+		<li><a href="Recipes">Recipes</a></li>
+	</ul>
+	<h1 id="top"><b>Peanut Butter Chocolate Chip Cookies</b></h1>
+	<hr>
+	<h2>Ingredients</h2>
+	<ul>
+		<li>1 cup <a href="https://www.walmart.com/ip/Skippy-Creamy-Peanut-Butter-Spread-40-oz/37447682" target="blank">creamy peanut butter</a></li>
+		<li>1/4 tspn <a href="http://www.target.com/p/archer-farms-maple-extract-2-0oz/-/A-14768934" target="_blank">maple flavoring</a></li>
+		<li>2 tspns <a href="http://www.wholefoodsmarket.com/products/honey-stinger-organic-honey-wildflowers" target="_blank">honey</a></li>
+		<li>1/2 tspn <a href="http://www.target.com/p/-/A-12935632" target="_blank">baking soda</a></li>
+		<li>1 large <a href="https://www.walgreens.com/store/c/eggland's-best-grade-a-eggs-1-dozen/ID=prod6123560-product" taret="_blank">egg</a></li>
+		<li>1/3 cup <a href="http://www.cvs.com/shop/household-grocery/food-snacks/baking-needs/nestle-toll-house-real-semi-sweet-morsels-chocolate-12-oz-prodid-1050068?skuId=321919" target="_blank">chocolate chips</a></li>
+	</ul>
+	<h3>Preperation</h3>
+	<ol>
+		<li>Preheat over to 350 degrees.Make sure rack is in the middle of the oven.</li>
+		<li>Line a baking sheet with parchment paper.</li>
+		<li>Put the peanut butter, maple flavoring, honey, baking soda,and the egg in a mixing bowl and mix thoroughly with a hand mixer.</li>
+		<li>Add the chocolate chips and mix again.</li>
+		<li>Make 1/2 inch balls with the dough and place on the baking sheet.</li>
+		<li>Once the sheet is full push down on each cookie with a fork in one direction,then in the opposite direction.</li>
+		<li>Place the full baking sheet in the oven and bake for <b>8-10 minutes</b> until the bottoms begin to brown.</li>
+		<li>Once they are done baking, let cook for <b>5 minutes</b> on the baking sheet before moving to a cooling rack.</li>
+		<li>After fully cooled, enjoy!</li>
+	</ol>
+
+	<b><i>*Store cookies in the fridge when they are not being eaten*</i></b>
+
+	<p>This recipe can be found at <a href="http://www.lowcarbmaven.com/six-ingredient-peanut-butter-chocolate-chip-cookies/" target="_blank">lowcarbmaven.com</a></p>
+
+	<p>Questions or for more cookie recipes email:<br/><a href="mailto:jstockma@lesley.edu">Jordan Stockman</a></p>
+	<a href="#top">Return to Top</a>
+</body>
+
+
+</html>
