@@ -1,0 +1,23 @@
+body {
+    font-family: Helvetica ;
+    font-size: 15px ;
+    line-height: 20px ;
+    padding: 5px ;
+    background-color: cornsilk;
+    color: dimgray ;
+    border: 2px solid darkred ;
+}
+
+h2, h3 {
+    font-family: Serif ;
+    font-size: 18px ;
+    color: darkred ;
+    
+}
+
+h1 {
+    font-family: Serif ;
+    font-size: 28px ;
+    color: darkred ;
+    
+}
