@@ -1,0 +1,47 @@
+/* Put your CSS here. */
+
+h1{
+    font-family: Georgia ;
+    font-size: 20px ;
+}
+body, h2{
+    font-size: 12px ;
+}
+#author {
+    font-family: Georgia ;
+    text-transform: uppercase;
+    line-height: 1px ;
+}
+
+h3{
+    visibility: hidden ;
+    font-family: Verdana ;
+    text-transform: uppercase ;
+    color: dimgrey ;
+}
+
+.stanza1{
+    font-family: Helvetica ;
+    color: green ;
+      
+}
+
+.stanza2{
+    font-family: Georgia ;
+    color: darkslateblue ;
+}
+
+
+
+.stanza3{
+    font-family: Courier ; 
+    color: deeppink
+}
+
+.stanza1, .stanza2, .stanza3{
+    color: black ;
+}
+
+p::first-line {
+    text-transform: uppercase ;
+}
