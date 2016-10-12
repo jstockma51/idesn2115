@@ -12,30 +12,33 @@ body, h2{
     text-transform: uppercase;
     line-height: 1px ;
 }
+h2{
+    font-weight: normal ;
+    
+}
 
 h3{
-    visibility: hidden ;
+/*    visibility: hidden ;*/
+    display: none ;
     font-family: Verdana ;
     text-transform: uppercase ;
     color: dimgrey ;
 }
 
 .stanza1{
-    font-family: Helvetica ;
-    color: green ;
+    font-family: Helvetica, sans-serif;
+    color: #41ad49 ;
       
 }
 
 .stanza2{
-    font-family: Georgia ;
-    color: darkslateblue ;
+    font-family: Georgia, serif;
+    color: #25408f ;
 }
 
-
-
 .stanza3{
-    font-family: Courier ; 
-    color: deeppink
+    font-family: Courier, monospace; 
+    color: #ec008c ;
 }
 
 .stanza1, .stanza2, .stanza3{
