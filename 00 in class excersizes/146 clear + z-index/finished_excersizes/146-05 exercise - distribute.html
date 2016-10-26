@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>146.html</title>
+        <style type="text/css">
+
+            body {
+                margin: 0px ;
+            }
+
+            .red {
+                background: red;
+/*                z-index: 10;*/
+            }
+
+            .green {
+                background: green;
+                position: relative;
+                left: 75;
+                bottom: 75px;
+                z-index: 5;
+            }
+
+            .blue {
+                background: blue;
+                position: fixed;
+                left: 150;
+                /*bottom: 225;*/
+                top: 150;
+                
+                
+            }
+
+            .orange {
+                background: orange;
+                position: relative;
+                left: 225px;
+                bottom: 75px;
+                z-index: 15;
+            }
+
+            .shared {
+                width: 150px ;
+                height: 150px;
+                padding: 5px ;
+                color: white;
+                font-family: Helvetica;
+                font-size: 20px ;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="red shared">1
+        </div>
+        <div class="green shared">2
+        </div>
+        <div class="blue shared">3
+        </div>
+        <div class="orange shared">4
+        </div>
+
+    </body>
+</html>
