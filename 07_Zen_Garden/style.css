@@ -54,7 +54,7 @@ abbr {
 /* specific divs */
 .page-wrapper { 
     background: url(zen-garden.gif) no-repeat top center;
-    padding: 0 200px 0 220px;  
+    padding: 0 300px 0 300px;  
     margin: 0; 
     position: relative;
     top: 2px;
@@ -64,6 +64,7 @@ abbr {
 .intro { 
     min-width: 470px;
     width: 100%;
+/*    clear: left;*/
 }
 
 header h1 { 
@@ -110,13 +111,15 @@ header {
     clear: both; 
     margin: 20px 20px 20px 10px; 
     width: 160px; 
-    float: left;
+/*    float: left;*/
+    position: absolute;
+    left: 70px;
 }
 div#zen-summary.summary p {
     font-family: "mr-eaves-modern",sans-serif;
     font-style: italic;
     font-weight: 100;
-    margin-top: 600px;
+    margin-top: 370px;
 }
 
 .preamble {
@@ -154,6 +157,11 @@ footer a:link, footer a:visited {
     right: 10px;
     bottom: 10px;
 */
+/*
+    position: absolute;
+    left: 10px;
+*/
+/*    float: right;*/
 }
 .sidebar h3.select { 
 /*    background: transparent url(http://csszengarden.com/001/h3.gif) no-repeat top left; */
