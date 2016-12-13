@@ -1,6 +1,144 @@
-body{
-    ;
+/*
+header, ul, p, div, nav{
+border: 2px solid red !important;
+margin-top: 5px !important ;
+margin-bottom: 5px !important ;
+}
+*/
+
+body {
+    font-family: franklin-gothic-urw ;
+}
+
+/* header for every page */
+header{
+    font-size: 3em;
+    text-align: center ;
+    color: #EAEAEA;
+    padding-top: 20px ;
+}
+.header{
+    font-size: 1.25em ;
+    text-align: center ;
+    color: #EAEAEA;
+    padding-bottom: 20px ;
+}
+header, .header{
+    border: 1px solid #8E793D ;
+    background-color: #8E793D ;
 }
 ul{
     list-style-type: none ;
+    margin-left: 80px ;
 }
+
+li{
+    display: inline ;
+    font-size: 1.1em ;
+    border: solid 1px #8E793D ;
+    background-color: #8E793D ;
+    margin: 10 10 10 10 ;
+    padding: 7 20 7 20 ;
+    color: #EAEAEA ;
+}
+
+li>a{
+    color: #EAEAEA ;
+    text-decoration: none ;
+}
+
+li>a:visited{
+    color: #EAEAEA ;
+    text-decoration: none ;
+}
+
+li>a:hover{
+    color: #EAEAEA ;
+    text-decoration: none ;
+}
+
+.pageID{
+    font-size: 1.5em ;
+    text-decoration: underline ;
+    margin-left: 130px ;
+}
+
+/*for index page*/
+
+.blurb{
+    border: 1px solid white;
+    padding: 5px 130px 5px 130px ;
+    margin-top: 40px ;
+    margin-bottom: 50px ;
+}
+
+/*for id page*/
+
+.one{
+    text-decoration: underline ;
+}
+.two{
+    margin-left: 240px ;
+}
+
+a{
+    text-decoration: none ;
+    color: #2D2A2B ;
+}
+
+a:vistited{
+    color: #DDDDDD ;
+}
+
+a:hover{
+    text-decoration: underline ;
+    color: #DDDDDD ;
+}
+
+/*images*/
+
+img{
+    padding: 10 10 10 10 ;
+
+}
+
+.spotlight{
+    /*    margin-left: auto ;*/
+    /*    margin-right: auto ;*/
+    text-align: center ;
+    /*    width: 80% ;*/
+
+}
+
+.goldImg{
+    padding: 10 10 10 120 ;
+}
+
+figcaption{
+    font-size: .65em ;
+    padding-left: 10 ;
+}
+
+/*for englehard page*/
+
+.info{
+    font-size: 1em ;
+    margin-left: 130px ;
+    margin-bottom: -20px;
+}
+
+.EInfo{
+    margin-left: 140px ;
+    margin-bottom: 30px ;
+    
+}
+
+.englehard1{
+    margin-left: 130px ;
+    
+}
+
+.englehard2{
+    margin-left: 130px ;
+}
+
