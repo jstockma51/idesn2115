@@ -1,5 +1,5 @@
 /*
-header, ul, p, div, nav{
+header, ul, p, div, nav, figure{
 border: 2px solid red !important;
 margin-top: 5px !important ;
 margin-bottom: 5px !important ;
@@ -110,8 +110,10 @@ img{
 
 }
 
-.goldImg{
-    padding: 10 10 10 120 ;
+figure{
+    display: inline-block ;
+    height: 230px ;
+    width: 330px ;
 }
 
 figcaption{
@@ -119,7 +121,7 @@ figcaption{
     padding-left: 10 ;
 }
 
-/*for englehard page*/
+/*for information pages*/
 
 .info{
     font-size: 1em ;
@@ -128,8 +130,10 @@ figcaption{
 }
 
 .EInfo{
+    width: 300px ;
     margin-left: 140px ;
     margin-bottom: 30px ;
+    position: relative ;
     
 }
 
@@ -140,5 +144,12 @@ figcaption{
 
 .englehard2{
     margin-left: 130px ;
+}
+
+.nxtpg {
+    float: right ;
+    right: 30px ;
+    bottom:  30px ;
+    
 }
 
