@@ -11,17 +11,18 @@ body {
 }
 
 /* header for every page */
+
 header{
     font-size: 3em;
     text-align: center ;
     color: #EAEAEA;
-    padding-top: 20px ;
+    padding-top: 30px ;
 }
 .header{
     font-size: 1.25em ;
     text-align: center ;
     color: #EAEAEA;
-    padding-bottom: 20px ;
+    padding-bottom: 40px ;
 }
 header, .header{
     border: 1px solid #8E793D ;
@@ -29,17 +30,20 @@ header, .header{
 }
 ul{
     list-style-type: none ;
-    margin-left: 80px ;
+    border: solid 1px #231F20 ;
+    background-color: #231F20 ;
+    padding: 15 50 15 30 ;
+    margin-bottom: 30px ;
+    margin-top: -16px ;
 }
 
 li{
     display: inline ;
-    font-size: 1.1em ;
-    border: solid 1px #8E793D ;
-    background-color: #8E793D ;
-    margin: 10 10 10 10 ;
-    padding: 7 20 7 20 ;
+    font-size: 1.2em ;
+    padding: 15 50 15 100 ;
     color: #EAEAEA ;
+    font-style: normal ;
+    font-weight: 700 ;
 }
 
 li>a{
@@ -110,14 +114,18 @@ img{
 
 }
 
+.goldImg{
+    margin-left: 80px ;
+    
+}
+
 figure{
     display: inline-block ;
-    height: 230px ;
-    width: 330px ;
+    width: 270px ;
 }
 
 figcaption{
-    font-size: .65em ;
+    font-size: .7em ;
     padding-left: 10 ;
 }
 
@@ -126,30 +134,34 @@ figcaption{
 .info{
     font-size: 1em ;
     margin-left: 130px ;
-    margin-bottom: -20px;
+    margin-bottom: -15px;
 }
 
 .EInfo{
     width: 300px ;
-    margin-left: 140px ;
+    margin-left: 130px ;
     margin-bottom: 30px ;
     position: relative ;
-    
+
 }
 
 .englehard1{
-    margin-left: 130px ;
-    
+    margin-left: 120px ;
+
 }
 
 .englehard2{
-    margin-left: 130px ;
+    margin-left: 120px ;
 }
 
-.nxtpg {
-    float: right ;
-    right: 30px ;
-    bottom:  30px ;
-    
+figure.nextpage {
+    height: 150px ;
+    width: 100px ;
+/*    float: right ;*/
+    position: absolute ;
+/*    bottom: -125px ;*/
+    top: 295px ;
+    left: 850px ;
+
 }
 
